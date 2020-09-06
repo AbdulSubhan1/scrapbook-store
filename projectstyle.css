@@ -224,3 +224,54 @@ nav li{
 .content-para{
     padding-top: 10px;
 }
+.cart-info{
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+}
+.cart-info, h1{
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-bottom:1.5rem ;
+}
+
+
+
+.cart-info, button{
+   margin-top: 2rem ;
+}
+
+#cart{
+    display:flex;
+    justify-content:space-between;
+    align-self: center;
+    margin:1rem ;
+    width: 50%;
+    
+}
+.boxdisp{
+    width: 300px;
+
+    margin: auto;
+
+}
+.okay{
+    margin-left: 37%;
+    width: 100px;
+}
+.ok{
+    padding: 5px 20px;
+    background-color: silver;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+.ok:focus{
+    outline: none;
+}
+.boxdisp2{
+    width: 300px;
+    border: 3px solid red;
+    margin: auto;
+}
